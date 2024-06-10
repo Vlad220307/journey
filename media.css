@@ -476,6 +476,7 @@
 @media (min-width: 320px) and (max-width:1662px) {
     .popular {
         width: 100%;
+        height: 1900px;
         justify-items: center;
         justify-content: center;
     }
@@ -494,4 +495,22 @@
         width: 350px;
         height: 480px;
     } */
+}
+
+@media (min-width: 320px) and (max-width:1662px) {
+    .podval {
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+    }
+
+    .podval_info {
+        display: grid;
+        justify-content: center;
+    }
+
+    .podval_info-text {
+        margin-bottom: 30px;
+    }
+
 }
